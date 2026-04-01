@@ -1,0 +1,133 @@
+img {
+	border: 3px solid black;
+}
+
+.sec {
+	padding: 0px 10%;
+
+}
+
+
+
+body {
+	margin: 0;
+}
+
+.content {
+	margin-top: 75px;
+	font-family: "Roboto";
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.content li {
+	margin: 5px;
+}
+
+strong, h3, h2, h1 {
+	color: #4F2683;
+}
+
+.navbar {
+	
+}
+
+#logo {
+	
+}
+
+#save {
+	background-color: #3486eb;
+	padding: 10px;
+	color: white;
+	border: none;
+	width: 100px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+#save:active {
+	background-color: #133763;
+}
+
+.navbarList {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	margin: 0%;
+	list-style-type: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: grid;
+	grid-auto-flow: column;
+	
+	background-color: #4F2683;
+	align-items: center;
+	font-family: "Roboto";
+	
+}
+
+.navCenter {
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	
+}
+
+.dropdown li {
+	float: none;
+}
+
+.dropdown {
+	
+}
+
+.dropdownItems {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.dropdown .dropdownItems a {
+	display:block;
+	background-color: white;
+}
+
+.dropdown .dropdownItems a:hover {
+	background-color: #e3e3e3;
+	outline: 2px solid black;
+}
+
+.dropdown:hover .dropdownItems {
+	display: block;
+	border: 2.5px solid #e3e3e3;
+}
+
+.navbarList li a {
+	text-decoration: none;
+	background-color: white;
+	padding: 10px;
+	color: #4F2683;
+}
+
+
+.navbarList a:hover {
+	background-color: #e3e3e3;
+	
+}
+
+.content > div:nth-child(even) {
+	background-color: #e3e3e3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) inset;
+
+}
+
+.content > div:nth-child(odd) {
+	
+}
+
+
